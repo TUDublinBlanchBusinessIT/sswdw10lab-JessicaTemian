@@ -12,7 +12,7 @@ echo $_SESSION['passengerFN'];
 echo "<BR>";
 
 //echo the passenger's surname from the appropriate session variable
-echo $_SESSION['passengerSN']
+echo $_SESSION['passengerSN'];
 
 echo "<BR>";
 
@@ -22,7 +22,7 @@ if ($_SESSION['luggage']==1) {
 
     //echo the amount of bags under ten kilos the passenger is bringing
     echo $_SESSION['subTenKG'];
-    
+
     echo "<BR>";
 
 
